@@ -1,0 +1,56 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ET_CLOSE	tc_epoll_server.h	/^        ET_CLOSE  = 2,$/;"	e	enum:tars::NetThread::__anon1
+ET_LISTEN	tc_epoll_server.h	/^        ET_LISTEN = 1,$/;"	e	enum:tars::NetThread::__anon1
+ET_NET	tc_epoll_server.h	/^        ET_NET    = 0,$/;"	e	enum:tars::NetThread::__anon1
+ET_NOTIFY	tc_epoll_server.h	/^        ET_NOTIFY = 3,$/;"	e	enum:tars::NetThread::__anon1
+H64	tc_epoll_server.cpp	24;"	d	file:
+NetThread	tc_epoll_server.cpp	/^NetThread::NetThread()$/;"	f	class:tars::NetThread
+NetThread	tc_epoll_server.h	/^class NetThread$/;"	c	namespace:tars
+TC_Epoller	tc_epoller.cpp	/^TC_Epoller::TC_Epoller(bool bEt)$/;"	f	class:tars::TC_Epoller
+TC_Epoller	tc_epoller.h	/^class TC_Epoller$/;"	c	namespace:tars
+__TARS_TC_EPOLL_SERVER_H_	tc_epoll_server.h	2;"	d
+__TC_EPOLLER_H_	tc_epoller.h	18;"	d
+_epoller	tc_epoll_server.h	/^    TC_Epoller                _epoller;$/;"	m	class:tars::NetThread
+_et	tc_epoller.h	/^    bool _et;$/;"	m	class:tars::TC_Epoller
+_free	tc_epoll_server.h	/^    list<uint32_t>            _free;$/;"	m	class:tars::NetThread
+_free_size	tc_epoll_server.h	/^    volatile size_t           _free_size;$/;"	m	class:tars::NetThread
+_iEpollfd	tc_epoller.h	/^    int _iEpollfd;$/;"	m	class:tars::TC_Epoller
+_listen_connect_id	tc_epoll_server.h	/^    map<int,int>              _listen_connect_id;$/;"	m	class:tars::NetThread
+_max_connections	tc_epoller.h	/^    int    _max_connections;$/;"	m	class:tars::TC_Epoller
+_notify_sock	tc_epoll_server.h	/^    int                       _notify_sock;$/;"	m	class:tars::NetThread
+_pevs	tc_epoller.h	/^    struct epoll_event *_pevs;$/;"	m	class:tars::TC_Epoller	typeref:struct:tars::TC_Epoller::epoll_event
+_recvbuffer	tc_epoll_server.h	/^    string                    _recvbuffer;$/;"	m	class:tars::NetThread
+_response	tc_epoll_server.h	/^    }_response;$/;"	m	class:tars::NetThread	typeref:struct:tars::NetThread::__anon2
+_shutdown_sock	tc_epoll_server.h	/^    int                       _shutdown_sock;$/;"	m	class:tars::NetThread
+_sock	tc_epoll_server.h	/^    int                       _sock;$/;"	m	class:tars::NetThread
+accept	tc_epoll_server.cpp	/^bool NetThread::accept(int fd)$/;"	f	class:tars::NetThread
+add	tc_epoller.cpp	/^void TC_Epoller::add(int fd, long long data, __uint32_t event)$/;"	f	class:tars::TC_Epoller
+bind	tc_epoll_server.cpp	/^int NetThread::bind(string& ip, int& port)$/;"	f	class:tars::NetThread
+create	tc_epoller.cpp	/^void TC_Epoller::create(int max_connections)$/;"	f	class:tars::TC_Epoller
+createEpoll	tc_epoll_server.cpp	/^void NetThread::createEpoll(uint32_t iIndex)$/;"	f	class:tars::NetThread
+ctrl	tc_epoller.cpp	/^void TC_Epoller::ctrl(int fd, long long data, __uint32_t events, int op)$/;"	f	class:tars::TC_Epoller
+del	tc_epoller.cpp	/^void TC_Epoller::del(int fd, long long data, __uint32_t event)$/;"	f	class:tars::TC_Epoller
+get	tc_epoller.h	/^    struct epoll_event& get(int i) { assert(_pevs != 0); return _pevs[i]; }$/;"	f	class:tars::TC_Epoller
+ifd	tc_epoll_server.h	/^    int                       ifd;		$/;"	m	class:tars::NetThread
+main	client.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	main.cpp	/^int main()$/;"	f
+mod	tc_epoller.cpp	/^void TC_Epoller::mod(int fd, long long data, __uint32_t event)$/;"	f	class:tars::TC_Epoller
+parseAddr	tc_epoll_server.cpp	/^void NetThread::parseAddr(const string &sAddr, struct in_addr &stSinAddr)$/;"	f	class:tars::NetThread
+processNet	tc_epoll_server.cpp	/^void NetThread::processNet(const epoll_event &ev)$/;"	f	class:tars::NetThread
+processPipe	tc_epoll_server.cpp	/^void NetThread::processPipe()$/;"	f	class:tars::NetThread
+response	tc_epoll_server.h	/^        string response;$/;"	m	struct:tars::NetThread::__anon2
+response	tc_epoll_server.h	/^    string                    response;$/;"	m	class:tars::NetThread
+run	tc_epoll_server.cpp	/^void NetThread::run()$/;"	f	class:tars::NetThread
+tars	tc_epoll_server.cpp	/^namespace tars$/;"	n	file:
+tars	tc_epoll_server.h	/^namespace tars$/;"	n
+tars	tc_epoller.cpp	/^namespace tars$/;"	n	file:
+tars	tc_epoller.h	/^namespace tars$/;"	n
+uid	tc_epoll_server.h	/^        uint32_t uid;	$/;"	m	struct:tars::NetThread::__anon2
+wait	tc_epoller.cpp	/^int TC_Epoller::wait(int millsecond)$/;"	f	class:tars::TC_Epoller
+~NetThread	tc_epoll_server.cpp	/^NetThread::~NetThread()$/;"	f	class:tars::NetThread
+~TC_Epoller	tc_epoller.cpp	/^TC_Epoller::~TC_Epoller()$/;"	f	class:tars::TC_Epoller
